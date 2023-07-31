@@ -1,5 +1,9 @@
 
-
+#body
+{
+    border: 20px;
+    border-color:red;
+}
 #container{
 
    height:5000px;
@@ -121,7 +125,7 @@
 {
     height: 600px;
     width: 20%;
-    background-color: rgb(49, 49, 156);
+    background-color: rgba(252, 251, 249, 0.894);
     float:left;
     border-radius: 20px;
    

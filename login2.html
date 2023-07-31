@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHREERAM mp ONLINE</title>
+    <link href="aa.JPG" rel="icon">
+    <link rel="stylesheet" href="login2.css">
+    <script>
+        function validation(aform)
+        {
+            if(aform.email.value=="")
+            {
+                alert("enter your email..");
+                aform.email.focus();
+                return false;
+            }
+            if(aform.password.value=="")
+            {
+                alert("enter password");
+                aform.password.focus();
+                return false;
+
+            }
+            return true;
+        }
+
+        
+
+
+    </script>
+</head>
+<body>
+
+    
+        <div id="header">
+                <div id="part1">
+                    <img src="aa.JPG" alt="loading">
+                </div>
+                <div id="part2">
+                <h1>welcome to shreeram online<br></h1>
+                <h5>G-5,6-7 mahaveer nagar indore 452018</h5>
+                </div>
+        </div>
+
+        
+
+        <div id="nav">
+                 <ul>
+                    <a href="login2.html"><li>Home</li></a>
+                    <a href=""><li>Services</li></a>
+                    <a href=""><li>Contact</li></a>
+                    <a href=""><li>Address</li></a>
+                    <a href=""><li>About</li></a>
+                    
+                 </ul>
+                
+        </div>
+    
+     <header id="header">
+        
+        <nav target=""id="nav1">
+         <a href="index.html">home</a>
+         <a href="#">login</a>
+         <a href="#">services</a>
+         <a href="#">contact</a>
+         <a href="https://www.google.com/maps/place/SHREERAM+CSC+%26+MP+ONLINE+SERVICES/@22.720096,75.8985897,17z/data=!3m1!4b1!4m6!3m5!1s0x3962e305f17d80a3:0x1c1a6045bab3af52!8m2!3d22.720096!4d75.9007784!16s%2Fg%2F11rpldq9vc?entry=ttu">map</a>
+        </nav>
+    
+        <form action="">
+            <input type="text">
+             <marquee ><button type="submit">search</button></marquee>
+        </form>
+        
+    </header> 
+    
+    <br><br><br><br><br>
+   <marquee class="mark" direction=""><h1 >shree ram online</h1></marquee>
+   <marquee class="mark1"scrollamount="30" behavior="alternate"><h1 >welcome</h1></marquee>
+<!-- image slider start -->
+<div class="slider">
+<div class="slides">
+    <img src="img5.jpg"alt="loading">
+    <img src="img2.jpg"alt="loading">
+    <img src="img3.jpg"alt="loading">
+    <img src="img4.jpg"alt="loading">
+    <img src="img5.jpg"alt="loading">
+</div>
+</div>
+<!-- image slider end -->
+
+   <div class="container">
+
+<header>
+    <h1 align="center">log-in</h1>
+</header> 
+<br><br><br><br><br>
+<form action="frist.html">
+    <table border="3">
+        <tr>
+            <td> 
+                <label >Email:</label>
+            </td>
+            <td>
+                <input id="email"required="required"type="email"placeholder="enter email id">
+            </td>   
+         </tr>
+
+         <tr>
+            <td> 
+                <label >password:</label>
+            </td>
+            <td >
+                <input id="password"type="password"placeholder="enter password">
+            </td>   
+         </tr>
+         
+          
+         <tr>
+            <td> 
+                <label ></label>
+            </td>
+
+            <td>
+                <button type="button"onclick="validation(this.form)">submit</button>
+            </td>
+             
+            <td>
+                <button type="reset">reset</button>
+            </td>
+        </tr>
+        
+        
+    </table>
+</form>  
+       
+</div>
+
+
+
+
+       
+    
+      
+      
+   
+</body>
+</html>

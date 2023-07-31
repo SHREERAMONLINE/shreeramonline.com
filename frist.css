@@ -1,0 +1,97 @@
+body
+{
+    
+    background-image:url(img2.jpg) ;
+  
+    
+    /* background-color: rgb(222, 91, 91); */
+    background-clip: content-box;
+    /* background-position-x: top; */
+    background-repeat:round;
+    background-origin: padding-box;
+    background-position:inherit;
+    background-attachment:fixed;
+    /* background-attachment:local; */
+    /* background: local; */
+    /* background-origin:content-box ; */
+    /* background-attachment:initial; */
+    
+    
+}
+
+/* border*/
+border
+{
+    border-style:double;
+    border-color: #9ef006;
+    border: width 2000px;
+    border-radius: 50%;
+}
+/* h1
+{
+    background-color: #9ef006;
+    border:hsl(84, 37%, 8%);
+    text size: 100px;
+   text-align:center;
+   /* text-size-adjust:20; */
+   /* text-decoration: solid; */
+    
+} */
+ 
+dialog
+{
+    
+   
+   box-shadow: #9ef006;
+   
+}
+
+{
+  text-align: center; 
+   font-size:xx-large;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border-style: double;
+}
+
+ 
+nav
+{ 
+    border-width;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+    top:0;
+    bottom:0;
+    padding :20px 100px;
+    width=100%;
+    background-color: #be132a;
+    position: fixed;
+   
+    align:center;
+    z-index: 99;
+}
+/* *
+        {
+            margin:0px;
+            padding:0px;
+        } */
+    marquee {
+      
+        overflow: hidden;
+        position:initial;
+        background-color:#72f5d4;
+         border: 10px solid rgb(9, 8, 9); 
+         position:relative;
+         align-items: center;
+         background-image:url(aa.JPG);
+                background-repeat:repeat-x;
+                background-size:contain;
+         -webkit-text-fill-color: #f08e06;
+         
+
+                 
+ 
+    height:100px;
+     
+    behavior:initial;
+    font-family:Algerian;
+    }
