@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="slider.css">
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    })
+</head>
+<body>
+
+    <main>
+        <div class="slides">
+            <img id="img1" name="image"src="img5.jpg"alt="loading">
+             <img id="img2"name="image"src="img2.jpg"alt="loading">
+            <img id="img3"name="image"src="img3.jpg"alt="loading">
+            <img id="img4"name="image"src="img4.jpg"alt="loading">
+            <img id="img5"name="image"src="img5.jpg"alt="loading">
+         
+        </div>    
+        </main>
+       
+
+</body>
+</html>

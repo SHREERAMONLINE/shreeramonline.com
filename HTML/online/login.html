@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginpage</title>
+    <link rel="stylesheet" href="second.css">
+    <script>
+        function validation(aform)
+        {
+            if(aform.email.value=="")
+            {
+                alert("please enter the email id...");
+                aform.email.focus();
+                return false;
+            }
+            if(aform.password.value=="")
+            {
+                alert("please enter password...");
+                aform.password.focus();
+                return false;
+            }
+            return true;//it returns to the server
+
+        }
+    </script>
+</head>
+<body>
+            <table border="3"width="100%">
+                
+                <th>
+                    
+                       <td>
+                        <a href="#" width="20%">home</a>
+                       </td> 
+
+                       <td>
+                        <a href="#" width="20%">services</a>
+                       </td> 
+
+                       <td>
+                        <a href="#" width="20%">about</a>
+                       </td> 
+
+                       <td>
+                        <a href="#" width="20%">more..</a>
+                       </td> 
+                       
+                       <td>
+                        <a href="HEM.jpg" width="20%">jjjjj</a>
+                       </td> 
+                                        
+                </th>
+                 
+                
+            </table>
+         
+            <form id="form"action="frist.html">
+                <marquee> </marquee>
+             
+                
+             
+                <table>
+                   <tr>
+                    <td>
+                        <label >Email:-</label>
+                        <input id="email"type="email">
+                    </td>
+                   </tr>
+                    <tr>
+                        <td>
+                            <label>password:-</label>
+                            <input id="password""type="password">
+                        </td>
+                    </tr>
+                    
+                    
+                </table>
+       <button type="submit"onclick="validation(this.form)">submit</button>                 
+            </form>
+        
+ 
+   
+    
+   
+    
+     
+        
+
+    
+</body>
+</html>

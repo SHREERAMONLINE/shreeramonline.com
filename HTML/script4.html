@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conditional</title>
+    <script>
+        function grt()
+        {
+            var a=parseInt(document.getElementById("n1").value)
+            var b=parseInt(document.getElementById("n2").value)
+            var c=parseInt(document.getElementById("n3").value) 
+             
+            if(a>b)
+            {
+             if(a>c)
+             {
+                document.write("a is greatest ="+a);
+             }
+              
+           }
+           else
+           {
+            if(b>c)
+            {
+                document.write("b is greatest ="+b);
+            }
+            else
+            {
+                document.write("c is greatest ="+c);
+            }
+           }
+            
+        
+        }
+    </script>
+</head>
+<body>
+    a:<input type="text"id="n1">
+    b:<input type="text"id="n2">
+    c:<input type="text"id="n3"> 
+    <button type="button"onclick=grt()>greatest</button>
+     
+   
+    
+</body>
+</html>

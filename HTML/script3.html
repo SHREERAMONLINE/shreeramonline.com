@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script>
+
+        function sum()
+        {
+            var a=parseInt(document.getElementById("n1").value)
+            var b=parseInt(document.getElementById("n2").value)
+            c=a+b;
+            document.getElementById("n3").value=c;
+        }
+        function sub()
+            {
+                var a=parseInt(document.getElementById("n1").value)
+                var b=parseInt(document.getElementById("n2").value)
+                c=a-b;
+                document.getElementById("n3").value=c;
+
+            }
+        
+            function div()
+            {
+                var a=parseInt(document.getElementById("n1").value)
+                var b=parseInt(document.getElementById("n2").value)
+                c=a/b;
+                document.getElementById("n3").value=c;
+            }
+            function multi()
+            {
+                var a=parseInt(document.getElementById("n1").value)
+                var b=parseInt(document.getElementById("n2").value)
+                c=a*b;
+                document.getElementById("n3").value=c;
+
+            }
+        
+        
+    </script>
+</head>
+<body>
+    number1:<input type="text"id="n1"name="n1">
+    number2:<input type="text"id="n2"name="n2">
+    result<input type="text"id="n3">
+    <button type="button"onclick=sum()>sum</button>
+    <button type="button"onclick=sub()>sub</button>
+    <button type="button"onclick=div()>division</button>
+    <button type="button"onclick=multi()>multiply</button>
+</body>
+</html>

@@ -1,0 +1,150 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body
+{
+    height: 100%;
+   width:100% ;
+    background-color: rgb(40, 67, 148);
+    
+}
+
+ 
+main
+{
+    width:50%;
+    height: 50px;
+    margin:auto;
+    margin-top:100px;
+    box-shadow:0px 0px 1000px goldenrod;
+
+}
+
+ .slider.slides
+ {
+    
+    white-space:nowrap;
+    max-width:3200px;
+
+ }
+
+ .slides img
+ {
+    margin-left: 20px;
+    height:500px;
+    object-fit:cover;
+
+    width:calc(100%/3.9)
+
+ }
+
+header
+{
+    top 0;
+    left: 0;
+    width:100%;
+    position:fixed;
+    background-color: bisque;
+    padding: 25px 13%;
+    display:flex;
+    justify-content:space-around;
+    z-index:100;
+    align-items:center;
+
+}
+nav
+{
+    position:relative;
+    font-size: 30px;
+    color:#fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:overline rgb(223, 173, 9);
+} 
+
+form
+{
+     background-color: rgb(120, 151, 182);
+     border: px;
+     width: 450;
+     height: 45;
+
+     radius: 100;
+     display: flex;
+     align-items:center;
+     
+
+      
+}
+ 
+form button
+{
+    
+    color: rgb(24, 29, 28);
+    background-color: rgb(236, 221, 227);
+    cursor:progress;
+    border-color:rgb(165, 214, 7);
+}
+
+table
+{
+    border:rgb(227, 194, 3);
+    border: 5px;;
+}
+
+.mark
+{
+    background-image:url(aa.JPG);
+    background-size: contain;
+    font-size: xx-large;
+    font-family:Algerian;
+    
+}
+
+.container
+{
+position:absolute;
+left:50%;
+top:20%;
+transform:translate(-50%,-50%);
+width:20%;
+height:60%;
+margin-top:20%;
+margin-left:-35%;
+background:skyblue ;
+border-radius: 10%;
+
+
+}
+
+
+.container header
+{
+    background-color: rgb(239, 239, 247);
+    border: 5px;
+    border-radius: 10%;
+}
+
+img
+{
+    position:top;
+    size: 10px;
+    color: rgb(146, 202, 183);
+}
+ h1{
+       color: rgb(25, 31, 30);
+
+    border: 5px;
+    
+ }
+    p
+    {
+     -webkit-text-fill-color: bisque;
+    }
+
+    
+ 
