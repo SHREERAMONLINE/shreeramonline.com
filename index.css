@@ -1,6 +1,11 @@
 @media (max-width:600px) {
     #header_part2
     {color: #a31414;
+        width:150px;
+}
+#header
+{
+width:150px;
 }
 }
 body{
