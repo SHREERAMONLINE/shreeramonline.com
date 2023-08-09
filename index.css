@@ -26,7 +26,7 @@ margin-left:0px;
     /* top right bottom left */ 
 flex-wrap: wrap;
     flex-direction:row;
-    background-color: #676462;
+    background-color: #1d1b1a;
 }
 #header_part1
 {
@@ -45,7 +45,7 @@ flex-wrap: wrap;
     height: 100px;
     width: 100vw;
     background: rgb(72, 171, 174);
-    margin: 0% 0% 0% -1%;
+    margin: 0% 0% 0% 0%;
     
     text-align: center;
 
