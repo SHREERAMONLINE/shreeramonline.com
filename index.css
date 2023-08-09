@@ -9,7 +9,7 @@ body{
 #header{
 
     height: 100vh;
-    width:100vh;
+    width:100%;
      margin: 0% 0% 0% 0%;
     /* top right bottom left */ 
 
@@ -55,7 +55,7 @@ flex-wrap: wrap;
     border: #171a19;
     border-radius: 10px;
     box-shadow: #8d60a4;
-    width: .1vmax;
+    width: .1vh;
     
 }
 
