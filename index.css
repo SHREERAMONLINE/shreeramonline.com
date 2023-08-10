@@ -1,9 +1,11 @@
 @media (max-width:600px) {
     #header_part2
-    {color: #a31414;
+    {
+        text-align: end;
         width:150px;
         height: 120vh;   
-            
+       color: #0a0709;
+            background-color: #8d60a4;
 }
 #header
 {
@@ -16,39 +18,40 @@
 
 }
 }
-body{
-margin-left:0px;
-}
 #header{
 
-    height: 100vh;
+    height: 20vh;
     width:100%;
-    
-    /* top right bottom left */ 
+   /* top right bottom left */ 
 flex-wrap: wrap;
     flex-direction:row;
-    background-color: #e5560e;
+    
+    
 }
 #header_part1
 {
  
-    height: 100px;
-    width: 20%;
-
-     
-    margin: 0% 0% 0% 0%;
+    height: 00px;
+    width:20vh;
+    
+     padding: 0%;
+    margin-left: 5vh;
     float: left;
     text-align: center;
     border-radius: 20px;
 }
 #header_part2
 {
+
+    float:right;
     height: 100px;
-    width: 100%;
-    background: rgb(72, 171, 174);
+    width:80vh;
+    border:none solid black;
     margin: 0% 0% 0% 0%;
-    
+    padding: 0%;
+    color: #75c629;
     text-align: center;
+    box-shadow: 2px 5px 8px 1px red;
 
 }
 
@@ -61,6 +64,7 @@ flex-wrap: wrap;
     border: 0px;
     border-radius: 15px;
     box-shadow:10PX 3PX 70PX 10PX #ee02d6;
+
 }
 #header_part2 img
 {
