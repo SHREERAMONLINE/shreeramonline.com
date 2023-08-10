@@ -1,29 +1,37 @@
 @media (max-width:600px) {
     #header_part2
     {
-        text-align: end;
-        width:50px;
+        
+        position: absolute;
         height: 120vh;   
        color: #0a0709;
-            background-color: #8d60a4;
+            background-color: #020003;
 }
 #header_part1 img
     {
-    
+      
         width:2vh;
         height: 120vh;   
-       color: #0a0709;
+       
             background-color: #8d60a4;
 }
 #header
 {   
     margin: 0% 0% 0% 0%;
-    
+    height: 40vh;
     text-align: center;
-    width: 50%;
+
 
 }
 }
+body
+{
+background-image:url(3d.jpg);
+background-size: cover;
+ 
+
+}
+ 
 #header{
 
     height: 20vh;
@@ -32,7 +40,7 @@
 flex-wrap: wrap;
     flex-direction:row;
     
-    
+   
 }
 #header_part1
 {
@@ -52,15 +60,16 @@ flex-wrap: wrap;
 #header_part2
 {
 
-    float:right;
+    
     height: 100px;
-    width:80vh;
+    width:100%;
     border:none solid black;
     margin: 0% 0% 0% 0%;
     padding: 0%;
     color: #75c629;
     text-align: center;
     box-shadow: 2px 5px 8px 1px red;
+    background-color: aliceblue;
 
 }
 
@@ -316,7 +325,7 @@ flex-wrap: wrap;
     border-radius:20px;
     margin-left: 20px;
     margin-right:20px;
-    box-shadow: 0px 70px 70px 50px  red;
+    /* box-shadow: 0px 70px 70px 50px  red; */
     
     
 }
@@ -329,12 +338,12 @@ flex-wrap: wrap;
 #nav{
 
     height: 35px;
-    width: 154vh;
+
      margin: 0% 0% 0% 0%;
     /* top right bottom left */ 
-     
+     /* box-shadow: 2PX 0PX 5PX 5PX salmon; */
 
-    background: hsl(280, 97%, 42%);
+    background:none;
      
 }
 
@@ -352,7 +361,7 @@ flex-wrap: wrap;
 
 #nav ul
 {
-    list-style:none;
+    list-style:decimal;
     /* this is used for remove bullets */
 }
 #nav ul li
@@ -366,8 +375,9 @@ flex-wrap: wrap;
  font-size:20px;
  font-family: Georgia, 'Times New Roman', Times, serif;
  font-weight:bold;
- color:rgb(79, 3, 179);
+ color:rgb(52, 137, 235);
  background-color: #edf2edf9;
+
 }
 
 #nav ul li:hover
