@@ -49,8 +49,8 @@ background-size: cover;
 flex-wrap: wrap;
     flex-direction:row;
 background-color: #97d604;
-    
-   
+background-image:url(3d.jpg);
+background-size: cover;
 }
 #header_part1
 {
@@ -363,7 +363,7 @@ background-color: #97d604;
 }
 #nav
 {
-    background-color:transparent;
+    background-color:#8fb8a4;
     
 }
 #nav_header a
