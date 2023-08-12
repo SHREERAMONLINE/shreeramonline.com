@@ -360,19 +360,7 @@ background-color: #ee02d6;
 
     list-style:circle;
 } */
-#nav_header a:hover
-{
-
-
-
-
-
-
-
-
-
-
-
+#nav_header a:hover{
 
     color: rgb(248, 246, 246);
     border: 1px rgb(245, 244, 244);
@@ -387,7 +375,7 @@ background-color: #ee02d6;
 #nav_header a
 {
     color: #fefcfe;
-    font-size: x-large;
+    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
