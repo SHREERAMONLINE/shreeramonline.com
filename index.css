@@ -3,19 +3,10 @@
     #main
     {
        width: 100%;
-    height: 100vh;
-          padding: 0%;
     
-    background-image: url(3d.jpg);
-    }
-    #header_part2
-    {
-        line-height: 1vw;
-        position: absolute;
-        height: 120vh;   
-       color: #0a0709;
-            background-color: #020003;
-}
+          padding: 0%;
+   }
+     
 #header_part1 img
     {
       
@@ -27,7 +18,7 @@
 #header
 {   
     margin: 0% 0% 0% 0%;
-    height: 15vh;
+    height: 15wv;
     text-align: center;
    
 
@@ -37,13 +28,16 @@
 
  }
 
+
+ /* ---------------------------- */
+
  #main
 {
    width: 100%;
 height: 100vh;
 padding: 0%;
 
-background-image: url(3d.jpg);
+/* background-image: url(3d.jpg); */
 background-size: cover;
 
 }
@@ -51,10 +45,10 @@ background-size: cover;
 
 
     width:100%;
-   
+   color: #0b0c0a;
 flex-wrap: wrap;
     flex-direction:row;
-background-color: #ee02d6;
+background-color: #97d604;
     
    
 }
