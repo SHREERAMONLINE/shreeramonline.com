@@ -99,6 +99,25 @@ background-size: cover;
     
 }
 
+#btn_group button
+{
+    min-height: 7vh;
+    min-width: 10%;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fff;
+ color: #3104d3;
+    box-shadow: 0 0 px;
+    font-weight: 300px;
+    
+}
+
+#btn_group button:hover
+{
+    color:white;
+    background: #3104d3;
+
+}
 #container{
 
    height:5000px;
