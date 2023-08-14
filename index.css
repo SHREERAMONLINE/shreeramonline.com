@@ -402,7 +402,7 @@ background-size: cover;
 {
     background-color:#e6ede9;
     box-shadow:6px 2px 6px 0px red;
-    width: 100%;
+    width: 100vh;
 }
 #nav_header a
 {
