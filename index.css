@@ -99,10 +99,15 @@ background-size: cover;
     
 }
 
+#navigation
+{
+    width: 100%;
+}
+
 #btn_group button
 {
     min-height: 7vh;
-    min-width: 10%;
+    width:19.7%;
     font-size: x-large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #fff;
