@@ -1,7 +1,7 @@
 .mobile-container {
     max-width: 480px;
     margin: auto;
-    background-color: #7c0c0c;
+    background-color: #110808;
   
     color: white;
   
@@ -9,16 +9,22 @@
   
   .topnav {
     overflow: hidden;
-    background-color: #e6e2e2;
+    background-color: #c2d706;
     position: relative;
   }
   
+  .topnav a img
+  {
+    height: 60px;
+    width: 60px;
+  }
+
   .topnav #myLinks {
     display: none;
   }
   
   .topnav a {
-    color: white;
+    color: rgb(12, 7, 7);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -26,7 +32,7 @@
   }
   
   .topnav a.icon {
-    background: rgb(238, 235, 235);
+    background: rgb(253, 253, 253);
     display: block;
     position: absolute;
     right: 0;
